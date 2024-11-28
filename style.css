@@ -1,0 +1,188 @@
+body, html {
+    height: 100%; /* Certifique-se de que o body e o html ocupam toda a altura da página */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    padding-bottom: 400px;
+}
+
+body h1 {
+    color: white;
+    text-align: center;
+}
+
+body p {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+.container {
+
+    margin: 0 auto;
+    background-color: #7A238F;
+    padding: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 80px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.7); /* Sombreamento branco */
+    transition: transform 0.3s ease; /* Suavizar a animação */
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+ul {
+    display: flex; /* Usar flexbox para alinhar os itens */
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+    width: 80%; /* Controla a largura da lista */
+    justify-content: space-between; /* Distribui os itens igualmente com espaçamento entre eles */
+
+}
+
+ul img {
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+.caixona {
+    align-items: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li:hover{
+    transform: scale(1.05); /* Aumenta o tamanho em 5% quando passar o mouse */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Aumenta o tamanho em 5% quando passar o mouse */
+
+}
+
+.container-2 {
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.container-2 img {
+    height: auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+}
+
+.text2 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-3 {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.container4 {
+    margin-bottom: 40px;
+    margin: 0 auto;
+    background-color: #4d0b61;
+    padding: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 80px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.7); /* Sombreamento branco */
+    transition: transform 0.3s ease; /* Suavizar a animação */
+    margin-top: 50px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px); /* Três colunas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.caixona {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o contêiner */
+    align-items: center; /* Centraliza verticalmente o contêiner */
+    margin-top: 50px;
+
+}
